@@ -7,3 +7,13 @@ $('.slider-principal').slick({
     autoplay: true,
     autoplaySpeed: 2000
 });
+function send_handle(){
+
+    let num=document.getElementById("Telefone").value;
+  
+    let msg= document.getElementById("Mensagem").value;
+  
+      let name= document.getElementById("Nome").value;
+    
+    var win = window.open(`https://wa.me/${num}?text=%20Olá%20${name}%20sua%20pontuação%20foi:%20${msg}`, '_blank');
+  }
