@@ -11,7 +11,7 @@ function send_handle(){
 
     let num=document.getElementById("Telefone").value;
   
-    let msg= document.getElementById("Mensagem").value;
+    let msg= document.getElementById("Pontuação").value;
   
       let name= document.getElementById("Nome").value;
     
